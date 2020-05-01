@@ -111,6 +111,7 @@ def fetch_pages(keyword, start_time, end_time,cookie):
     else:
         mblogs = []  # 此次时间单位内的搜索全部结果先临时用列表保存，后存入csv
         try:
+            # 每个时间段爬取前20页微博
             t = soup.select_one(".s-scroll").select("li")
             page_num = len(t)
             if (page_num>20):
