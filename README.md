@@ -8,10 +8,10 @@
 
 2、项目结构
 ---------
-search_spider --根据关键字和时间进行爬取的模块  
+* search_spider --根据关键字和时间进行爬取的模块  
 ----hour_fenge.py 时间分隔函数：对要搜索的时间期限进行以每小时为单位的划分，返回包含所有时间单位的列表  
 ----search_start.py 根据关键字和时间条件进行爬取的主要函数：其中包括爬取某页全部微博、微博所有页数的计算、保存为csv文件等功能  
-tools --工具模块  
+* tools --工具模块  
 ----Cookie_Process.py cookie处理函数：其中包括获取文件中存储的cookie、更新文件中存储的cookie等功能  
 ----Date_Process.py 时间处理函数：其中包括对爬取到微博的不同时间格式进行统一  
 ----Emoji_Process.py 表情处理函数：清除掉包含的utf8bm4编码格式的表情  
