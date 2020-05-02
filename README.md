@@ -20,7 +20,7 @@
 
 3、使用介绍  
 --------
-* 需要获取cookie，cookie存于目录下的cookie.file中  
-* 手动获取cookie的操作如下：使用谷歌浏览器登录https://weibo.cn/， 登陆成功后打开浏览器开发工具，选择network,点击weibo.cn，查看Request Headers中的Cookie  
-* 运行search_start即可使用，运行时输入要爬取的微博关键字和时间范围，时间格式为年-月-日-时(eg. 2020-5-1-0)。运行时会提示是否更新cookie，如不更新，输入n/N即可  
+* 需要获取Cookie，Cookie存于目录下的cookie.file中  
+* 手动获取Cookie的操作如下：使用谷歌浏览器登录https://weibo.cn/， 登陆成功后打开浏览器开发工具，选择network,点击weibo.cn，查看Request Headers中的Cookie  
+* 运行search_start即可使用，运行时输入要爬取的微博关键字和时间范围，时间格式为年-月-日-时(eg. 2020-5-1-0)。运行时会提示是否更新Cookie，如不更新，输入n/N即可  
 * 运行过程中报错基本都可通过更新Cookie解决  
